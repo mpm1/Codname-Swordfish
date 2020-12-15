@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Security Test</title>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="./js/names.js"></script>
+        <script type="text/javascript" src="./js/console.js"></script>
+        <script type="text/javascript" src="./js/directory.js"></script>
+        <script type="text/javascript" src="./js/files.js"></script>
+        <script type="text/javascript" src="./js/game.js"></script>
+    </head>
+    <body>
+        <div>
+            <button id="accountButton" disabled>Loading...</button>
+        </div>
+
+        <div>
+            <div id="console"></div>
+        </div>
+
+        <script async defer src="https://apis.google.com/js/api.js"
+            onload="this.onload=function(){};handleClientLoad();"
+            onreadystatechange="if (this.readyState === 'complete') this.onload()">
+        </script>
+    </body>
+</html>
